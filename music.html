@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <script src="https://kit.fontawesome.com/f6888c093f.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="stylex.css">
+</head>
+<body>
+    
+    <div class="main_div">
+        
+        <div class="music_contianer">
+            
+            <h2 id="title">Lotus Lane</h2>
+            <h3 id="artist">The Loyality</h3>
+            <div class="img_container">
+                <img src="images/music-1.jpg" alt="">
+            </div>
+            <audio src="songs/music-1.mp3"></audio>
+                <div class="progressbar_container" id="progress_container">
+                    <div class="progress_duration_meter">
+                        <div id="current_time">
+                            0:00
+                        </div>
+                        <div id="duration">3:36</div>
+                    </div>
+                    <div class="progress_div" id="progress_div">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                </div>
+            <div class="music_controls">
+                <i class="fa-solid fa-backward" id="prev" title="Previous"></i>
+                <i class="fa-solid fa-play main_button" id="play" title="play"></i>
+                <i class="fa-solid fa-forward" id="next" title="Next"></i>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="JavaScript.js"></script>
+    <!-- <script src="script5.js"></script> -->
+</body>
+</html>
